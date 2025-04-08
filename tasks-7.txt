@@ -1,0 +1,191 @@
+File Handling
+
+Text File
+
+1. Write and Read a File
+Task:
+Create a text file called data.txt. Write the following lines into it:
+
+Python is awesome
+File handling is powerful
+Practice makes perfect
+
+Then read and print the content of the file.
+
+2. Count Number of Words in a File
+Task:
+Open a file and count how many words it contains.
+
+3. Search for a Word in a File
+Task:
+Ask the user for a word, search for that word in the file, and print the line(s) where it's found.
+
+4. Copy Content from One File to Another
+Task:
+Copy the content from data.txt to copy.txt.
+
+5. Append to a File
+Task:
+Append a new sentence to the end of data.txt without overwriting existing content.
+
+6. Display File Content in Reverse
+Task:
+Read all lines from the file and print them in reverse order.
+
+7. Remove Blank Lines
+Task:
+Create a new file that contains all the lines from the original file except blank lines.
+
+8. Write Random Numbers to File
+Task:
+Use the random module to write 100 random integers to a file (one per line).
+
+9. Sum of Numbers in a File
+Task:
+Read all numbers from the file you created above and print their sum.
+
+10. Line Numbering
+Task:
+Read a file and print each line preceded by its line number, like:
+1: Python is awesome
+2: File handling is powerful
+
+11. Count the Occurrence of each words from a text file.
+
+12. Write a file handling code with seek() and tell().
+
+
+
+
+Json file
+
+1. Write a Dictionary to a JSON File
+Task:
+Create a Python dictionary and write it to a file called data.json.
+
+2. Read JSON Data from a File
+Task:
+Read the JSON data from data.json and print each key-value pair.
+
+3. Update JSON Data in a File
+Task:
+Add a new key "location": "Bangalore" to the existing JSON data and write it back to the same file.
+
+4. Pretty Print JSON Data
+Task:
+Read a JSON file and print its contents in a readable/indented format.
+
+5. Convert JSON to Python Object and Back
+Task:
+Convert a JSON string into a Python dictionary and then back into a JSON string.
+
+6. Work with Nested JSON
+Task:
+Read a file with nested JSON
+Write a nested JSON file
+
+7. Merge Two JSON Files
+Task:
+Load two JSON files and merge their contents into a new file.
+
+8. Count Entries(items) in a JSON Array
+
+9. Remove a Key from JSON File
+Task:
+Remove the key "age" from the JSON file if it exists.
+
+10.Flatten a Nested JSON
+Task:
+Write a function to flatten a nested dictionary. For example:
+
+{
+  "user": {
+    "name": "Alice",
+    "address": {
+      "city": "Mumbai",
+      "pin": 400001
+    }
+  }
+}
+Should become:
+
+{
+  "user.name": "Alice",
+  "user.address.city": "Mumbai",
+  "user.address.pin": 400001
+}
+
+
+
+CSV File
+
+1. Write a List of Dictionaries to CSV
+Task:
+Given:
+
+users = [
+    {"name": "Alice", "age": 25},
+    {"name": "Bob", "age": 30},
+]
+Write this to a CSV file with headers name and age.
+
+2. Read a CSV File and Print Each Row
+Task:
+Read the CSV created above and print each row in a readable format.
+
+3. Filter Rows Based on a Condition
+Task:
+From a CSV file with student scores, filter and print only those who scored above 75.
+
+4. Count Total Rows and Columns
+Task:
+Read a CSV and print:
+
+Total number of rows (excluding header)
+Total number of columns
+
+
+5. Append a New Row to an Existing CSV File
+
+6. Convert CSV to JSON
+
+7. Summarize Numeric Columns
+Task:
+Given a CSV file with sales data (e.g., price, quantity), calculate:
+Total sales (price * quantity)
+Average sale amount
+
+8. Update a Specific Cell in CSV
+Task:
+Read a CSV file, change the value of a specific cell (e.g., Bob’s age to 35), and write it back.
+
+9. Sort CSV Rows
+Task:
+Sort a CSV file by a specific column (e.g., age or name) and write the sorted data to a new file.
+
+10.Write List of Dicts to CSV Using DictWriter
+Task:
+Given:
+data = [
+    {"product": "Pen", "price": 10},
+    {"product": "Notebook", "price": 40},
+]
+Write this to a file called products.csv.
+
+
+
+YAML File
+
+1. Read and Print YAML Content
+
+2. Modify and Write Back YAML Data
+Task:
+Update the data inside and write the changes back to the same file.
+
+
+3. Convert YAML to JSON
+Task:
+Read a YAML file and convert its contents to a JSON file.
+
+4. Merge Two YAML Files
+
