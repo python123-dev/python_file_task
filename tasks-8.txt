@@ -18,6 +18,8 @@ Basic Tasks
  - Read a file that may or may not exist.
  - Handle FileNotFoundError.
 
+6. Handle KeyboardInterrupt Exception When Reading Input
+
 
 Intermediate Tasks
 6. Nested Try-Except
