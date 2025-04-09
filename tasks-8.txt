@@ -1,0 +1,53 @@
+Python Exception Handling Tasks
+
+
+Basic Tasks
+1. Divide Two Numbers
+ - Input two numbers.
+ - Handle ZeroDivisionError and ValueError.
+2. File Reader
+ - Try opening a file.
+ - Handle FileNotFoundError and PermissionError.
+3. List Index Access
+ - Access a list index given by the user.
+ - Handle IndexError and ValueError.
+4. String to Integer Conversion
+ - Convert a user-given string to an integer.
+ - Handle ValueError.
+5. Open a Nonexistent File
+ - Read a file that may or may not exist.
+ - Handle FileNotFoundError.
+
+
+Intermediate Tasks
+6. Nested Try-Except
+ - Perform multiple operations (file, division, list access).
+ - Use nested try-except.
+7. Use of Else and Finally
+ - Create a program that uses try-except-else-finally together.
+8. Raise Custom Exceptions
+Python Exception Handling Tasks
+ - Create a custom exception for 'Negative Age'.
+ - Raise it if the user enters a negative number.
+9. Form Validation
+ - Validate a form with name, age, and email.
+ - Raise custom exceptions for invalid inputs.
+10. User Registration System
+ - Ask for username and password.
+ - Raise exception for weak password or duplicate username.
+
+
+Advanced/Project-Level Tasks
+11. ATM Simulator
+ - Simulate checking balance, withdrawing, and depositing money.
+ - Handle invalid input and insufficient funds.
+12. Student Mark Entry
+ - Enter marks for a student.
+ - Raise exception if marks are not between 0 and 100.
+13. Product Billing System
+ - Ask user to enter product quantities.
+ - Raise exception if quantity is negative.
+14. Log Errors to a File
+ - Use try-except blocks and log exceptions into a .log file.
+15. Retry Input Until Correct
+ - Keep asking user for correct input using a while loop and try-except.
