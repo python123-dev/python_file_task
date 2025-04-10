@@ -1,0 +1,77 @@
+Command Line Arguments
+
+
+Take a list of numbers as arguments and print their average.
+
+Accept a filename and count how many lines it has.
+
+Pass two words and print the longer one.
+
+Check if a number passed is prime.
+
+Accept multiple filenames and print which ones exist.
+
+
+Argparse
+
+1. Add two numbers using argparse
+
+2.Repeat a Word
+Goal: Accept a word and a count as arguments, print the word that many times.
+
+3.Choose Operation (Add, Subtract)
+Goal: Accept two numbers and an operation (--op add or --op sub)
+
+4.Multiple File Inputs
+Goal: Use nargs='+' to accept a list of file names
+
+5.Word Counter
+Description:
+Accept a sentence and count number of words.
+
+6.Create a User Profile
+Description:
+Collect user's name, age, and gender from command line and print profile.
+
+7.File Analyzer
+Description:
+Take a file name as input, and return:
+
+Number of lines
+
+Number of words
+
+Number of characters
+Based on flags passed.
+
+Arguments:
+
+filename (positional)
+
+--lines (store_true)
+
+--words (store_true)
+
+--chars (store_true)
+
+8.Temperature Converter
+Description:
+Convert temperature from Celsius to Fahrenheit or vice versa.
+
+Arguments:
+
+--value (required, float)
+
+--to (choices=['C', 'F'], required)
+
+9.Search for Word in File
+Description:
+Search for a word in a text file and print line numbers containing that word.
+
+Arguments:
+
+filename (positional)
+
+--word (required)
+
+10.Try to give a example using all types of arguments in parser.add_argument()
