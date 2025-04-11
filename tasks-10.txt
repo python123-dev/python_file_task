@@ -67,3 +67,39 @@ Create a base class with a method and override it in the child.
 
 In the child, use super() to call the parent method before extending it.
 
+
+Polymorphism:
+
+1.write a polymorphic function to add two integers and to add two strings
+
+2.What is method overriding show it with an example?
+
+3.Write a function that accepts any shape object and prints its area?
+
+4. Shape Area
+Define two classes Rectangle and Triangle.
+Both should have a method area() which returns the area of the shape.
+Write a function print_area(shape) to display the area.
+
+5.Animal Sounds
+Create three classes: Dog, Cat, and Cow. Each class should have a method speak() that prints their respective sounds.
+Requirement: Call the speak() method using a loop.
+
+
+Abstraction:
+
+1. Abstract Shape Class
+Create an abstract class Shape with an abstract method area().
+Then create two child classes: Circle and Rectangle, and implement the area() method in both.
+
+2.Abstract Payment System
+Create an abstract class Payment with an abstract method pay(amount).
+Create classes CreditCardPayment and PayPalPayment that implement the payment logic.
+
+3.Abstract Animal Sound
+Create an abstract class Animal with an abstract method make_sound().
+Create classes Dog, Cat, and Cow that implement make_sound() accordingly.
+
+
+
+

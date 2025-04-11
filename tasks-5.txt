@@ -1,0 +1,34 @@
+1. Generate Numbers from 1 to N
+Task: Write a generator function that yields numbers from 1 to n.
+
+2. Fibonacci Sequence Generator
+Task: Write a generator to yield first n Fibonacci numbers.
+
+3. Even Numbers from a List
+Task: Yield only even numbers from a list.
+
+4. Infinite Odd Number Generator
+Task: Create a generator that yields odd numbers infinitely starting from 1.
+
+5.Custom Range Generator (like built-in range)
+
+6. Running Average Generator
+Task: Yield the average after each number added.
+
+7.Double the value
+Task is using decorator double the value
+
+8.Using decorator add a line before and after a function output
+
+9:Reverse a string using lambda
+
+10.maximum of two numbers using lambda
+
+11.maximum of three numbers using lambda
+
+12.Using lambda even or odd
+Task: the func should return 'even' for even value and 'odd' for odd values
+
+13. Sort a list using Sorted() and lambda
+Task:input=['abc','ab','a','aaaa']
+output=['a','ab','abc','aaaa']

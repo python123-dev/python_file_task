@@ -1,0 +1,121 @@
+List Comprehension
+
+1.Find all of the numbers from 1-1000 that are divisible by 7
+
+2.Find all of the numbers from 1-1000 that have a 3 in them
+
+3.Count the number of spaces in a string
+
+4.Create a list of all the consonants in the string 
+“Yellow Yaks like yelling and yawning and yesturday they yodled while eating yuky yams”
+
+5.Get the index and the value as a tuple for items in the list
+ “hi”, 4, 8.99, ‘apple’, (‘t,b’,’n’). Result would look like (index, value), (index, value)
+
+6.Find the common numbers in two lists (without using a tuple or set)
+ list_a = 1, 2, 3, 4, list_b = 2, 3, 4, 5
+
+7.Get only the numbers in a sentence like 
+‘In 1984 there were 13 instances of a protest with over 1000 people attending’
+
+8.Given numbers = range(20), produce a list containing the word ‘even’ if a number in the numbers is even, 
+and the word ‘odd’ if the number is odd. Result would look like ‘odd’,’odd’, ‘even’
+
+9.Produce a list of tuples consisting of only the matching numbers in these 
+lists list_a = 1, 2, 3,4,5,6,7,8,9, list_b = 2, 7, 1, 12. Result would look like (4,4), (12,12)
+
+10.Find all of the words in a string that are less than 4 letters
+
+11.Use a nested list comprehension to find all of the numbers 
+from 1-1000 that are divisible by any single digit besides 1 (2-9)
+
+
+Dict Comprehension
+
+1.Convert Two Lists into a Dictionary
+Task: Given keys = ['a', 'b', 'c'] and values = [1, 2, 3], create a dictionary using dict comprehension.
+
+2.Invert a Dictionary
+Task: Given a dictionary, swap its keys and values.
+original = {'a': 1, 'b': 2, 'c': 3}
+Output = {1: 'a', 2: 'b', 3: 'c'}
+
+3.Count Occurrences of Characters in a Word
+Task: Given a string, create a dictionary with character counts.
+word = "banana"
+Output: {'b': 1, 'a': 3, 'n': 2}
+
+4.Merge Two Dictionaries (add values if keys match)
+Task: Combine two dictionaries by adding values for common keys.
+d1 = {'a': 5, 'b': 3}
+d2 = {'a': 2, 'b': 7, 'c': 4}
+Output: {'a': 7, 'b': 10, 'c': 4}
+
+
+
+Map Filter Reduce
+
+Map:
+1. Square Each Number in a List
+2. Convert a List of Strings to Uppercase
+3. Add Two Lists Element-Wise
+4.list1 = [1, 2, 3, 4, 5]
+  list2 = [10, 20, 30, 40, 50]
+  list3 = [100, 200, 300, 400, 500]
+  output=[111,222,333,444,555]
+
+
+
+Filter:
+1. Filter Even Numbers from a List
+2. Filter a list of Words with Length > 4
+3. Filter Out Empty Strings
+4. filter prime nums from a list
+
+Reduce:
+1.Concatenate a List of Strings using reduce
+2. Find the maximum value from a list
+
+
+Time
+
+1. calculate the time required to complete a process
+2.Display current time every second
+3.Print the current year and month
+4.Create a simple stopwatch
+
+
+Datetime
+1.current time
+2.Days until a specific date
+3.convert a user input from yyyy-mm-dd to dd-mm-yy
+
+Random
+Task: Random Data Generator for Testing
+Description:
+Create a script that generates fake data for 10 users. Each user should have:
+
+A random full name
+
+A random age between 18 and 60
+
+A random 10-digit phone number
+
+A random email based on their name
+
+Store the data in a nested dictionary.
+
+
+
+OS Module:
+1.create a file directory
+2.Using Os module find the file exists or not
+3.Merge two file paths
+
+
+
+
+
+
+
+
