@@ -1,0 +1,69 @@
+Class and Object:
+
+1.Define a Student Class
+Task:
+Create a Student class with attributes: name, roll_no, and marks. 
+Create two student objects and print their details.
+
+2.Calculate Average
+Task:
+Add a method get_grade() that returns the grade based on marks:
+
+Above 90: A
+
+80-90: B
+
+Below 80: C
+
+3.Class Method vs Instance Method
+Task:
+Create a class Laptop with:
+
+class variable brand
+
+instance variable price
+Add a class method to change the brand for all objects.
+
+4. Use Dunder/magic method to compare two objects.
+
+5. Create a class with static method.
+
+
+Inheritance
+
+1. Basic Inheritance
+Create a Vehicle class with a method start().
+
+Inherit it in a Car class and add a drive() method.
+
+Create an object of Car and call both methods.
+
+2. Constructor Overriding
+Create a Person class with __init__ taking name and age.
+
+Create an Employee class that inherits Person and also takes employee ID.
+
+Show how super() is used.
+
+3. Method Overriding
+Create a Shape class with method area().
+
+Create a Square class that overrides area().
+
+4. Multilevel Inheritance
+LivingBeing → Animal → Dog
+
+Add unique methods in each and access all from Dog.
+
+5. Multiple Inheritance
+Flyer class with method fly()
+
+Swimmer class with method swim()
+
+Duck class inherits both and has its own quack() method.
+
+6. Using super() in methods (not just __init__)
+Create a base class with a method and override it in the child.
+
+In the child, use super() to call the parent method before extending it.
+
