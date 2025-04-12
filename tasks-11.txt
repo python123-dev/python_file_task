@@ -1,0 +1,57 @@
+Class and Object:
+
+1.Student Management System
+Requirements:
+Define a Student class.
+
+Each student should have:
+
+name
+
+roll_no
+
+marks (a dictionary with subject: score)
+
+Add methods to:
+
+Add a subject and marks
+
+Calculate average
+
+Determine grade based on average
+
+Display student details
+
+Use @property to get grade automatically.
+
+Use a class variable to keep track of total students.
+
+
+
+2.Implement binary search.
+
+3.Implement bubble sort.
+
+4.Implement selection sort
+
+5. Stack using list
+
+6. Queue using list
+
+7. Binary tree using list
+
+8. Difference between multiple and multilevel inheritance with example.
+
+9. Use Special methods in your class
+
+10.Using time module show which sorting algorithm is faster, bubble sort, insertion sorting and merge sort
+
+
+
+
+
+
+
+
+
+
