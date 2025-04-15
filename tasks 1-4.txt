@@ -1,0 +1,59 @@
+Day-1
+
+1.strings formatting using print()
+2.Area of triangle/area of circle
+3.celsius to fahrenheit
+4.simple interest
+5.compund interest
+6.reverse the last 5 elements from a string
+7.check whether the number is +ve or -ve
+8. Greatest of three numbers
+9. Print a table like 9th table
+10. Armstrong number
+11. Perfect number
+
+
+Day-2
+
+1.reverse the second part of the list
+2.prime numbers between 1 and 50
+3.simple interest using list
+4.compound interest using list
+5.counting words in list
+8.print index of two number when sum of two numbers are equal to target
+6.counting words in string
+7.copy nested lists, dictionaries in dictionary
+8.add nested dictionaries
+9.count vowels in a sentence
+10.multiply without * operator
+11.add without + operator
+
+
+Day-3
+
+
+1.try break, continue, pass statements
+2.fibonacci series
+3.add using function
+4.counting using function
+5. Calculate using variable length arguments
+6. Pascal triangle
+7. Rock paper scissor random module
+8. Guessing number using random
+9. Guessing shuffle word using random
+10. Password generator using random
+11. Convert integer to binary without using bin, calculate the length of list without using len()
+
+Day-4
+
+1.recursive fibonacci
+2.couting digits in numbers in recursive
+3.sum of numbers using recursive
+4.square the number using first class function
+5.nested function addition and subtraction of two numbers
+6.flatten a list using recursion
+7.substring using recursion
+8.calculate the average of numbers using variable length argument
+9.check the keyword variable length arguments like check the order of the argument and all the required keys are given in arguments
+10.check valid bill using kwrgs
+11. Using closure print odd numbers in which each time a new odd number should be output.
