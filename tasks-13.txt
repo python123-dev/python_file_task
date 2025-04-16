@@ -1,0 +1,53 @@
+Subprocess.run()
+
+Task 1: Run a simple shell command
+
+Task 2: List files in the current directory
+
+Task 3: Check your Python version
+
+Task 4: Save command output to a variable
+
+Task 5: Use input and output
+
+Task 6: Check if a command fails
+Run a command that doesn’t exist and handle the error using try-except block.
+
+Task 7: Run a long-running command in the background(ping google for 5 sec)
+
+Task 8: Communicate with a process using Popen.communicate()
+
+Task 9: Redirect output to a file
+
+Task 10: Run multiple subprocesses (chaining with pipes)
+
+Task 11: Capture stderr separately
+
+
+API
+
+1.Tasks Using Your Todo List API
+Create a new todo – Use POST to add a new task.
+
+Fetch all todos – Use GET to display all tasks.
+
+Update a todo – Use PUT to mark a task as completed or change its title.
+
+Delete a todo – Use DELETE to remove a task by ID.
+
+Search todos by keyword – Use query parameters with GET.
+
+
+2.Tasks Using API Ninja (Free Public APIs)
+Example: API Ninjas provides tons of APIs like jokes, facts, quotes, weather, etc.
+
+Get a random joke – Use the Jokes API.
+
+Fetch a quote by category – Use the Quotes API.
+
+Get fun facts – Use the Facts API.
+
+Fetch weather details – Use the Weather API with city input.
+
+Generate an excuse – Use the Excuse API for fun learning.
+
