@@ -1,0 +1,72 @@
+1.Search for a Term on Python using selenium
+
+2.Click a Link from Search Results
+
+3.Automate Login to a Website (Demo site)
+
+4.Take Screenshot of a Page
+
+5. Browser Navigation (Back, Forward, Refresh)
+
+6.Browser Window Handling (Switch between windows/tabs)
+
+7. Finding Elements
+# find_element(By.ID, ...)
+
+# find_element(By.NAME, ...)
+
+# find_element(By.CLASS_NAME, ...)
+
+# find_element(By.XPATH, ...)
+
+8. Automate a ecommerce website from login to final checkout. 
+Task: Automate a Purchase Flow on Sauce Demo
+Website: https://www.saucedemo.com/
+
+Login:
+
+	Username: standard_user
+
+	Password: secret_sauce
+
+Sort Products:
+
+	Use the “Sort” dropdown to select “Price (low to high)”.
+
+	Add Items to Cart
+
+	Add the cheapest and most expensive products to the cart.
+
+Verify Cart Badge:
+
+	Ensure the cart icon shows “2”.
+
+Go to Cart:
+
+	Click the cart icon and verify that exactly your two selected products are listed.
+
+Checkout:
+
+	Click “Checkout”
+
+Fill in the form:
+
+	First Name: Test
+
+	Last Name: User
+
+	Postal Code: 12345
+
+Continue to the overview page.
+
+Finish Purchase
+
+Click “Finish”
+
+Verify the success message: “THANK YOU FOR YOUR ORDER”.
+
+Logout
+
+Open the side menu → click “Logout”
+
+Verify you’re back on the login page.
