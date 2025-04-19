@@ -1,0 +1,21 @@
+Using RobotFramework
+
+Task 1: Add a product to cart
+
+Task 2: Validate number of products displayed(page should contain 6 products)
+
+Task 3: Check specific product is visible
+
+Task 4: Verify logout button presence after login
+
+Task 5: Validate Login Error Message (Invalid Credentials)
+
+Task 6: Reset App State(reset the page after adding products to cart)
+
+Task 7: Add Multiple Items and Validate Cart Badge
+
+Task 8: Add to Cart, Go to Cart Page and Validate
+
+Task 9: Navigation Test (Login → Cart → Back to Products)
+
+Task 10: A complete Ecommerce cycle from login - check out - logout
